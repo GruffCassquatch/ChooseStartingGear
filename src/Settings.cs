@@ -129,7 +129,6 @@ namespace ChooseStartingGear
         public bool clothing = false;
 
         [Section("Head")]
-
         [Name("Outer Slot Item")]
         [Description("Choose clothing item for this slot")]
         [Choice("None", "Astrid's Toque", "Baseball Cap", "Cotton Scarf", "Cotton Toque", "Fleece Cowl", "Long Wool Scarf", "Mackenzie's Toque", "Rabbitskin Hat", "Wool Scarf", "Wool Toque")]
@@ -139,7 +138,6 @@ namespace ChooseStartingGear
         [Description("Default is 100%")]
         [Slider(0f, 1f, 101, NumberFormat = "{0:P0}")]
         public float headOuterCondition = 1f;
-
 
         [Name("Inner Slot Item")]
         [Description("Choose clothing item for this slot")]
@@ -153,7 +151,6 @@ namespace ChooseStartingGear
 
 
         [Section("Torso (Outer)")]
-
         [Name("Outer Slot Item")]
         [Description("Choose clothing item for this slot")]
         [Choice("None", "Astrid's Jacket", "Bearskin Coat", "Down Vest", "Expedition Parka", "Light Shell", "Mackenzie's Parka", "Mackinaw Jacket", "Mariner's Pea Coat", "Military Coat", "Moose-Hide Cloak",
@@ -164,7 +161,6 @@ namespace ChooseStartingGear
         [Description("Default is 100%")]
         [Slider(0f, 1f, 101, NumberFormat = "{0:P0}")]
         public float torsoOuterOuterCondition = 1f;
-
 
         [Name("Inner Slot Item")]
         [Description("Choose clothing item for this slot")]
@@ -191,7 +187,6 @@ namespace ChooseStartingGear
         [Slider(0f, 1f, 101, NumberFormat = "{0:P0}")]
         public float torsoInnerOuterCondition = 1f;
 
-
         [Name("Inner Slot Item")]
         [Description("Choose clothing item for this slot")]
         [Choice("None", "Astrid's Sweater", "Cowichan Sweater", "Dress Shirt", "Fisherman's Sweater", "Hoodie", "Mackenzie's Shirt", "Mackenzie's Sweater", "Plaid Shirt", "Sweatshirt", "Thick Wool Sweater",
@@ -205,7 +200,6 @@ namespace ChooseStartingGear
 
 
         [Section("Hands")]
-
         [Name("Hands Slot Item")]
         [Description("Choose clothing item for this slot")]
         [Choice("None", "Astrid's Gloves", "Driving Gloves", "Fleece Mittens", "Gauntlets", "Rabbitskin Mitts", "Ski Gloves", "Wool Mittens", "Work Gloves")]
@@ -218,7 +212,6 @@ namespace ChooseStartingGear
 
 
         [Section("Accessories")]
-
         [Name("Outer Slot Item")]
         [Description("Choose clothing item for this slot")]
         [Choice("None", "Crampons", "Moose-Hide Satchel", "Wool Ear Wrap")]
@@ -228,7 +221,6 @@ namespace ChooseStartingGear
         [Description("Default is 100%")]
         [Slider(0f, 1f, 101, NumberFormat = "{0:P0}")]
         public float accessoriesOuterCondition = 1f;
-
 
         [Name("Inner Slot Item")]
         [Description("Choose clothing item for this slot")]
@@ -242,7 +234,6 @@ namespace ChooseStartingGear
 
 
         [Section("Legs (Outer)")]
-
         [Name("Outer Slot Item")]
         [Description("Choose clothing item for this slot")]
         [Choice("None", "Astrid's Jeans", "Cargo Pants", "Combat Pants", "Deerskin Pants", "Jeans", "Mackenzie's Pants", "Snow Pants", "Work Pants")]
@@ -252,7 +243,6 @@ namespace ChooseStartingGear
         [Description("Default is 100%")]
         [Slider(0f, 1f, 101, NumberFormat = "{0:P0}")]
         public float legsOuterOuterCondition = 1f;
-
 
         [Name("Inner Slot Item")]
         [Description("Choose clothing item for this slot")]
@@ -277,7 +267,6 @@ namespace ChooseStartingGear
         [Slider(0f, 1f, 101, NumberFormat = "{0:P0}")]
         public float legsInnerOuterCondition = 1f;
 
-
         [Name("Inner Slot Item")]
         [Description("Choose clothing item for this slot")]
         [Choice("None", "Thermal Underwear", "Wool Longjohns")]
@@ -290,7 +279,6 @@ namespace ChooseStartingGear
 
 
         [Section("Feet (Inner)")]
-
         [Name("Outer Slot Item")]
         [Description("Choose clothing item for this slot")]
         [Choice("None", "Climbing Socks", "Sports Socks", "Wool Socks")]
@@ -300,7 +288,6 @@ namespace ChooseStartingGear
         [Description("Default is 100%")]
         [Slider(0f, 1f, 101, NumberFormat = "{0:P0}")]
         public float feetInnerOuterCondition = 1f;
-
 
         [Name("Inner Slot Item")]
         [Description("Choose clothing item for this slot")]
@@ -314,7 +301,6 @@ namespace ChooseStartingGear
 
 
         [Section("Feet (Outer)")]
-
         [Name("Shoe Slot Item")]
         [Description("Choose clothing item for this slot")]
         [Choice("None", "Astrid's Boots", "Combat Boots", "Deerskin Boots", "Insulated Boots", "Leather Shoes", "Mackenzie's Boots", "Mountaineering Boots", "Mukluks", "Running Shoes", "Ski Boots","Trail Boots", "Work Boots")]
