@@ -14,7 +14,7 @@ The climber waiting for friends at the Mountaineer's Hut ...
 ... You can now outfit yourself for whatever scenario you dream up!
 
 ## Requirements
-[MelonLoader](https://github.com/HerpDerpinstine/MelonLoader/releases/latest/download/MelonLoader.Installer.exe)
+[MelonLoader](https://github.com/HerpDerpinstine/MelonLoader/releases/latest/download/MelonLoader.Installer.exe) 
 [ModSettings](https://github.com/zeobviouslyfakeacc/ModSettings/releases)
 
 ## Installation:
