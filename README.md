@@ -51,5 +51,6 @@ Delete ```ChooseStartingGear.dll``` and ```ChooseStartingGear.json``` file from 
 
 ## Feedback, Questions & Troubleshooting
 * I am active on [The Long Dark Modding](https://discord.gg/QvFE7VV4WZ) Discord server
-	* *General questions and feedback:* post in my channel #cass
-	* *Troubleshooting:* While in pre-release, post in my channel #cass
+	* **General questions and feedback:** post in my channel #cass
+	* **Troubleshooting:** While in pre-release, post in my channel #cass
+			       For mods not in pre-release, you can post in #troubleshooting or create an issue here on GitHub if you're not on Discord
