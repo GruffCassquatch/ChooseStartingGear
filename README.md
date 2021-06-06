@@ -54,4 +54,5 @@ Delete ```ChooseStartingGear.dll``` and ```ChooseStartingGear.json``` file from 
 	* **General questions and feedback:** post in my channel #cass
 	* **Troubleshooting:** 
 		* While in pre-release, post in my channel #cass 
-		* For mods not in pre-release, you can post in #troubleshooting or create an issue here on GitHub if you're not on Discord
+		* For mods not in pre-release, you can post in my channel #cass or in #troubleshooting 
+		* Or create an issue here on GitHub if you're not on Discord
