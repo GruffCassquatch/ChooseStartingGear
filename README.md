@@ -5,10 +5,10 @@ It is intended for use when starting a new SURVIVAL MODE game.
 The idea is to let you choose whatever you want to enable a more varied experience. 
 
 Perhaps you want to be...
-A repairwoman sent to the Cannery only to be trapped by the First Flare 
-A recluse living in Trappers Cabin 
-A plane crash survivor 
-The climber waiting for friends at the Mountaineer's Hut 
+A repairwoman sent to the Cannery only to be trapped by the First Flare ... 
+A recluse living in Trappers Cabin ... 
+A plane crash survivor ... 
+The climber waiting for friends at the Mountaineer's Hut  
 ... You can now outfit yourself for whatever scenario you dream up!
 
 ## Requirements
