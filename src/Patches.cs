@@ -16,7 +16,7 @@ namespace ChooseStartingGear
             {
                 if (Settings.settings.modFunction != ModFunction.Custom) return true;
 
-            // Clothing
+                // Clothing
                 if (Settings.settings.headInner != HeadInner.None) AddClothingItem(Settings.settings.headInner.ToString(), Settings.settings.headInnerCondition);
                 if (Settings.settings.headOuter != HeadOuter.None) AddClothingItem(Settings.settings.headOuter.ToString(), Settings.settings.headOuterCondition);
                 if (Settings.settings.torsoOuterInner != TorsoOuter.None) AddClothingItem(Settings.settings.torsoOuterInner.ToString(), Settings.settings.torsoOuterInnerCondition);
@@ -45,7 +45,7 @@ namespace ChooseStartingGear
                 if (Settings.settings.fuelType != Fuel.None) GameManager.GetPlayerManagerComponent().InstantiateItemInPlayerInventory(Settings.settings.fuelType.ToString(), Settings.settings.fuelQty);
                 if (Settings.settings.accelerant) GameManager.GetPlayerManagerComponent().InstantiateItemInPlayerInventory("GEAR_Accelerant");
 
-            // First Aid
+                // First Aid
                 if (Settings.settings.antibiotics != 0) GameManager.GetPlayerManagerComponent().InstantiateItemInPlayerInventory("GEAR_BottleAntibiotics", Settings.settings.antibiotics);
                 if (Settings.settings.antiseptic != 0) GameManager.GetPlayerManagerComponent().InstantiateItemInPlayerInventory("GEAR_BottleHydrogenPeroxide", Settings.settings.antiseptic);
                 if (Settings.settings.bandages != 0) GameManager.GetPlayerManagerComponent().InstantiateItemInPlayerInventory("GEAR_HeavyBandage", Settings.settings.bandages);
@@ -57,13 +57,13 @@ namespace ChooseStartingGear
                 if (Settings.settings.preparedRoseHips != 0) GameManager.GetPlayerManagerComponent().InstantiateItemInPlayerInventory("GEAR_RosehipsPrepared", Settings.settings.preparedRoseHips);
                 if (Settings.settings.waterPurificationTablets != 0) GameManager.GetPlayerManagerComponent().InstantiateItemInPlayerInventory("GEAR_WaterPurificationTablets", Settings.settings.waterPurificationTablets);
 
-            // Food and Drink
+                // Food and Drink
                 if (Settings.settings.food1 != Food.None) GameManager.GetPlayerManagerComponent().InstantiateItemInPlayerInventory(Settings.settings.food1.ToString());
                 if (Settings.settings.food2 != Food.None)GameManager.GetPlayerManagerComponent().InstantiateItemInPlayerInventory(Settings.settings.food2.ToString());
                 if (Settings.settings.drink1 != Drink.None) GameManager.GetPlayerManagerComponent().InstantiateItemInPlayerInventory(Settings.settings.drink1.ToString());
                 if (Settings.settings.drink2 != Drink.None) GameManager.GetPlayerManagerComponent().InstantiateItemInPlayerInventory(Settings.settings.drink2.ToString());
 
-            // Tools
+                // Tools
                 if (Settings.settings.bedroll != Bedroll.None) GameManager.GetPlayerManagerComponent().InstantiateItemInPlayerInventory(Settings.settings.bedroll.ToString());
                 if (Settings.settings.canOpener) GameManager.GetPlayerManagerComponent().InstantiateItemInPlayerInventory("GEAR_CanOpener");
                 if (Settings.settings.cooking != Cooking.None) GameManager.GetPlayerManagerComponent().InstantiateItemInPlayerInventory(Settings.settings.cooking.ToString());
@@ -103,7 +103,7 @@ namespace ChooseStartingGear
                 }
                 if (Settings.settings.whetstone) GameManager.GetPlayerManagerComponent().InstantiateItemInPlayerInventory("GEAR_SharpeningStone");
 
-            // Materials
+                // Materials
                 if (Settings.settings.arrowhead != 0) GameManager.GetPlayerManagerComponent().InstantiateItemInPlayerInventory("GEAR_ArrowHead", Settings.settings.arrowhead);
                 if (Settings.settings.arrowShaft != 0) GameManager.GetPlayerManagerComponent().InstantiateItemInPlayerInventory("GEAR_ArrowShaft", Settings.settings.arrowShaft);
                 if (Settings.settings.bullet != 0) GameManager.GetPlayerManagerComponent().InstantiateItemInPlayerInventory("GEAR_Bullet", Settings.settings.bullet);
