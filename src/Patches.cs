@@ -43,7 +43,7 @@ namespace ChooseStartingGear
                 }
                 if (Settings.settings.tinderType != Tinder.None) GameManager.GetPlayerManagerComponent().InstantiateItemInPlayerInventory(Settings.settings.tinderType.ToString(), Settings.settings.tinderQty);
                 if (Settings.settings.fuelType != Fuel.None) GameManager.GetPlayerManagerComponent().InstantiateItemInPlayerInventory(Settings.settings.fuelType.ToString(), Settings.settings.fuelQty);
-                if (Settings.settings.accelerant) GameManager.GetPlayerManagerComponent().InstantiateItemInPlayerInventory("GEAR_Accelerant");
+                if (Settings.settings.accelerant != Accelerant.None) GameManager.GetPlayerManagerComponent().InstantiateItemInPlayerInventory(Settings.settings.accelerant.ToString());
 
                 // First Aid
                 if (Settings.settings.antibiotics != 0) GameManager.GetPlayerManagerComponent().InstantiateItemInPlayerInventory("GEAR_BottleAntibiotics", Settings.settings.antibiotics);
@@ -176,7 +176,7 @@ namespace ChooseStartingGear
                 }
                 if (Settings.settings.tinderType != Tinder.None) GameManager.GetPlayerManagerComponent().InstantiateItemInPlayerInventory(Settings.settings.tinderType.ToString(), Settings.settings.tinderQty);
                 if (Settings.settings.fuelType != Fuel.None) GameManager.GetPlayerManagerComponent().InstantiateItemInPlayerInventory(Settings.settings.fuelType.ToString(), Settings.settings.fuelQty);
-                if (Settings.settings.accelerant) GameManager.GetPlayerManagerComponent().InstantiateItemInPlayerInventory("GEAR_Accelerant");
+                if (Settings.settings.accelerant != Accelerant.None) GameManager.GetPlayerManagerComponent().InstantiateItemInPlayerInventory(Settings.settings.accelerant.ToString());
 
                 // First Aid
                 if (Settings.settings.antibiotics != 0) GameManager.GetPlayerManagerComponent().InstantiateItemInPlayerInventory("GEAR_BottleAntibiotics", Settings.settings.antibiotics);

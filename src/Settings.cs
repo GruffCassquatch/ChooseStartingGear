@@ -69,6 +69,10 @@ namespace ChooseStartingGear
     {
         None, GEAR_Softwood, GEAR_Hardwood, GEAR_Firelog, GEAR_ReclaimedWoodB, GEAR_Stick
     }
+    public enum Accelerant
+    {
+        None, GEAR_Accelerant, GEAR_LampFuel
+    }
 
     // Food and Drink
     public enum Food
@@ -343,7 +347,8 @@ namespace ChooseStartingGear
         public int fuelQty = 1;
 
         [Name("Accelerant")]
-        public bool accelerant = false;
+        [Choice("None", "Accelerant", "Lamp Fuel")]
+        public Accelerant accelerant = Accelerant.None;
 
 
         // First Aid
