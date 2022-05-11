@@ -11,7 +11,7 @@ using MelonLoader;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("ChooseStartingGear")]
-[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -35,5 +35,5 @@ using MelonLoader;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.1")]
 [assembly: AssemblyFileVersion("1.1")]
-[assembly: MelonInfo(typeof(ChooseStartingGear.Implementation), "ChooseStartingGear", "1.1", "GruffCassquatch")]
+[assembly: MelonInfo(typeof(ChooseStartingGear.Implementation), "ChooseStartingGear", "1.2", "GruffCassquatch")]
 [assembly: MelonGame("Hinterland", "TheLongDark")]
