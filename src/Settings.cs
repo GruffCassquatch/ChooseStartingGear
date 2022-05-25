@@ -111,8 +111,6 @@ namespace ChooseStartingGear
     {
         None, GEAR_HighQualityTools, GEAR_SimpleTools
     }
-    
-    
     public enum Weapons
     {
         None, GEAR_FlareGun, GEAR_Rifle, GEAR_Revolver, GEAR_Bow
@@ -123,7 +121,7 @@ namespace ChooseStartingGear
     {
         [Section("Starting Gear Options")]
         [Name("Choose starting gear")]
-        [Description("GAME DEFAULT: This mod is disabled.         DEFAULT PLUS: Add items in addition to the default starting gear.                                              CUSTOM: Only receive the gear you choose.")]
+        [Description("GAME DEFAULT: This mod is disabled.\nDEFAULT PLUS: Add items in addition to the default starting gear.\nCUSTOM: Only receive the gear you choose.")]
         [Choice("Game Default", "Default PLUS", "Custom")]
         public ModFunction modFunction = ModFunction.Default;
 
