@@ -21,6 +21,7 @@ The climber waiting for friends at the Mountaineer's Hut ...
 ## Installation:
 1. Download the latest ```ChooseStartingGear.dll``` from [releases](https://github.com/GruffCassquatch/ChooseStartingGear/releases)
 2. Drop ```ChooseStartingGear.dll``` into your Mods folder
+3. If you are updating from an older version, delete the ```ChooseStartingGear.json``` from your Mods folder as old json's can cause errors if the mod's Settings have been changed
 
 ## Uninstallation:
 Delete ```ChooseStartingGear.dll``` and ```ChooseStartingGear.json``` file from your Mods folder
