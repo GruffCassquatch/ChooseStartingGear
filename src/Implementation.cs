@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using MelonLoader;
+﻿using MelonLoader;
 using UnityEngine;
 
 namespace ChooseStartingGear
