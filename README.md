@@ -4,6 +4,8 @@ This mod allows you to choose your starting gear when starting a new game.
 
 It is intended for use when starting a new SURVIVAL MODE game. 
 
+FOR GAME VERSION 2.00 / 2.02 (**PRE TALES FROM THE FAR TERRITORY**)
+
 The idea is to let you choose whatever you want to enable a more varied experience. 
 
 Perhaps you want to be...
